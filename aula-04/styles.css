@@ -13,6 +13,15 @@ header {
   align-items: center;
 }
 
+header img {
+  width: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 auto;
+}
+
 main {
   font-family: Arial, sans-serif;
   background: #181d23;
@@ -23,12 +32,23 @@ main {
   height: 80vh;
 }
 
-span {
-  color: greenyellow;
+#first-container {
+  max-width: 400px;
+  padding: 20px;
+  border: solid 1px #adff2f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(73, 255, 1, 0.803);
+  text-align: center;
+  border: 1px solid greenyellow;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  margin-bottom: 50px;
 }
 
-h2 {
-  margin: 0 auto;
+span {
+  color: greenyellow;
 }
 
 label {
@@ -74,29 +94,4 @@ button:hover {
   color: white;
   text-align: center;
   visibility: hidden;
-}
-
-header img {
-  width: 80px;
-}
-
-
-
-section {
-  max-width: 400px;
-  padding: 20px;
-  border: solid 1px #adff2f;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(73, 255, 1, 0.803);
-  text-align: center;
-  border: 1px solid greenyellow;
-  border-radius: 16px;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 80px;
-  margin-bottom: 50px;
-}
-
-h2 {
-  font-size: 40px;
 }
